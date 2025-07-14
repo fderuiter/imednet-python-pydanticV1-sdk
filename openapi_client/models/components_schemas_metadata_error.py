@@ -18,7 +18,7 @@ import re  # noqa: F401
 import json
 
 
-from typing import Optional
+from typing import Optional, Dict, Any
 from pydantic import BaseModel, Field, StrictStr
 
 class ComponentsSchemasMetadataError(BaseModel):
